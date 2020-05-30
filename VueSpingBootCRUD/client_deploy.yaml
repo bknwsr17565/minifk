@@ -21,7 +21,7 @@ spec:
         app: client
     spec:
       containers:
-      - image: bknwsr17565/client:v0.1
+      - image: bknwsr17565/client:v0.2
         imagePullPolicy: IfNotPresent
         name: client
       dnsPolicy: ClusterFirst
